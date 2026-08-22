@@ -1,0 +1,6 @@
+*.d
+build
+*.fftw
+Cargo.lock
+target
+.DS_Store
