@@ -11,7 +11,6 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return "Bot status: 24/7 Alive with Search & Shazam!"
-
 TOKEN = "8860021658:AAGy3udCnIWA0WxH0cdewn9479n4j4a-kSo"
 bot = telebot.TeleBot(TOKEN)
 shazam = Shazam()
