@@ -1,5 +1,4 @@
-pyTelegramBotAPI
-yt-dlp
-flask
-gunicorn
-shazamio
+Flask>=3.0,<4
+pyTelegramBotAPI>=4.29,<5
+yt-dlp>=2025.1.0
+shazamio>=0.7.0
