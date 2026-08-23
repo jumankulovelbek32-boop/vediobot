@@ -12,7 +12,7 @@ app = Flask(__name__)
 def home():
     return "Bot status: 24/7 Alive with Search & Shazam!"
 
-TOKEN = "8923192001:AAH_fpJmjNpWCyItVsp41xSwMkE_YAJ-CAE"
+TOKEN = "8860021658:AAGy3udCnIWA0WxH0cdewn9479n4j4a-kSo"
 bot = telebot.TeleBot(TOKEN)
 shazam = Shazam()
 
